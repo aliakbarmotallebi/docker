@@ -18,7 +18,7 @@ sudo dnf remove -y docker \
 sudo dnf install -y yum-utils device-mapper-persistent-data lvm2 ca-certificates curl
 
 # Add the official Docker repository
-sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+sudo yum-config-manager --add-repo https://mirror.manageit.ir/centos/docker-ce.repo
 
 # Update the package cache
 sudo dnf makecache
